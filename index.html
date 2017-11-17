@@ -1,0 +1,144 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="container">
+		
+		<header>
+			<!-- our header section -->
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<div id="gameName">
+					<h1>Crystals Collector</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+
+<!-- 		detailed instructions -->
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<div id="instructions">
+				<p>
+					You will be given a random number at the start of the game. 
+				</p>
+
+				<p>
+					There are four crstals below. By clicking on a crystal, you will add a specific amount of points to your total score.
+				</p>
+
+				<p>
+					You win the game by matching your total score to the number shown. You lose the game if your total go above the random number. 
+				</p>
+
+				<p>
+					The value of each crystal is hidden from you until you click on it. 
+				</p>
+
+				<p>
+					Each time the game starts, the value of each crystal will change.
+				</p>
+
+				<p>
+					Good luck!
+				</p>
+				</div>
+			</div>
+		</div>
+
+<!-- The randomly generated number & wins/losses tracker -->
+	<div class="row">
+		<div class="col-7 text-center">
+			<div id="projectedNumber">
+				Projected Number
+			</div>
+		</div>
+
+		<div class="col-5 text-center">
+			<div id="winsLossesTracker">
+				<div class="row">
+					<div class="col-6 text-center">
+						<div id="wins">
+							Wins
+						</div>
+					</div>
+					<div class="col-6 text-center">
+						<div id="losses">
+							Losses
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+<!-- our buttons -->	
+	<div class="row">
+		<div class="col-3 text-center images">
+			<div id="rubyBut">
+				<img src="assets/images/ruby.jpg" class="img-fluid">
+			</div>
+		</div>
+
+		<div class="col-3 text-center images">
+			<div id="sappBut">
+				<img src="assets/images/sapphire.jpg" class="img-fluid">
+			</div>		
+		</div>
+
+		<div class="col-3 text-center images">
+			<div id="diamBut">
+				<img src="assets/images/diamond.jpg" class="img-fluid">
+			</div>
+		</div>
+
+		<div class="col-3 text-center images">
+			<div id="emerBut">
+				<img src="assets/images/emerald.jpg" class="img-fluid">
+			</div>
+		</div>
+	</div>
+
+<!-- Score Display -->
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<div id="scoreText">
+				<h4>Your score total here</h4>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<div id="scoreHere">
+				Score
+			</div>
+		</div>
+	</div>
+
+<!-- Reset button -->
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<div id="resetButton">
+				Reset Button
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>
+<script src="assets/javascript/game.js">
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</html>
